@@ -95,7 +95,7 @@ const coloringBalls = (balls, levelColors) => {
 }
 
 const setHeader = (tellColor, ballsToPop, colorToPop, tellLives, tellLevel) => {
-    life = 30
+    life = 3;
     tellColor.style.color = colorToPop;
     tellColor.textContent = `Pop ${ballsToPop} ${colorToPop} balls to win!`;
     tellLives.textContent = `Lives: ${life}`;
